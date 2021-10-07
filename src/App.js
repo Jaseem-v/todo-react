@@ -29,8 +29,7 @@ function App() {
     setInputText("")
   }
 
-
-  console.log(deleteData);
+  console.log(todos[0]);
 
   const saveLocalStorage = () => {
     localStorage.setItem("deleteData", JSON.stringify(deleteData))
